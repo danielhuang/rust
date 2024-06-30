@@ -406,7 +406,7 @@ impl IpAddr {
         matches!(self, IpAddr::V6(_))
     }
 
-    /// Converts this address to an `IpAddr::V4` if it is an IPv4-mapped IPv6 addresses, otherwise it
+    /// Converts this address to an `IpAddr::V4` if it is an IPv4-mapped IPv6 address, otherwise it
     /// returns `self` as-is.
     ///
     /// # Examples
